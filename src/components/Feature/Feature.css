@@ -1,0 +1,58 @@
+.feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.featureItems{
+    
+    flex:1;
+    align-items: center;
+    padding: 40px;
+    margin: 0 20px ;
+    box-shadow: 0px 0px 15px -10px rgb(56, 55, 55);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FeatureTitle{
+    font-size: 20px;
+}
+.featureContainer{
+    
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.featureCost{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.ItemArrow{
+    margin-bottom: -5px;
+    margin-left: 3px;
+    font-size: 12px;
+
+}
+.Negative{
+    color: crimson;
+}
+
+.Positive{
+    color: green;
+}
+
+.ItemRate{
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+
+.ItemSub{
+    font-size: 15px;
+    color: gray;
+}
